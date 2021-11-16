@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Moto-Blacky SUPERBET</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1 id="seconds_left"><big>Moto or Blacky?(PLACE YOUR BET NOW!) - 10 seconds left</big></h1>
+    </header>
+
+
+    <p id="balance">0$</p>
+
+
+    <div class="choices">
+      <div class="choice" id="m">
+        <img width=500 height=500 src="doggy.jpeg" alt="">
+      </div>
+      <div class="choice" id="b">
+        <img width=500 height=500 src="blakcy.png" alt="">
+      </div>
+    </div>
+
+    <div id="play">
+      <p>Press to play!</p>
+    </div>
+
+    <div class="result">
+      <p>Who will win?</p>
+    </div>
+
+    <input id="code" placeholder="Enter your money code!">
+    <button onclick="code_detect()" id="button">Submit</button>
+
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>
